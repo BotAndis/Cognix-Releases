@@ -1,4 +1,61 @@
 {
   "schema": 1,
-  "programs": {}
+  "launcher": {
+    "version": "0.1.0",
+    "setup": {
+      "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.1.0/Cognix.Launcher.Setup.0.1.0.exe",
+      "sha256": "c87eb38b7bc11ba80696b224307bb3deffb19016b782d3850ddeb5cd7fe200f0",
+      "size": 116201339
+    }
+  },
+  "programs": {
+    "ac-pdf-cleaner": {
+      "name": "AC-PDF-Cleaner",
+      "dir": "AC PDF Cleaner",
+      "exe": "ac-pdf-cleaner.exe",
+      "version": "2.19.0",
+      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
+      "zip": {
+        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.19.0/ac-pdf-cleaner-2.19.0-win.zip",
+        "sha256": "2686fc04447578d1f9864338f4a16a72fe816ce89eee06992901f30ab8c2c686",
+        "size": 286824965
+      }
+    },
+    "cognix-os": {
+      "name": "Cognix OS",
+      "dir": "Cognix OS",
+      "exe": "Cognix OS.exe",
+      "version": "0.1.54",
+      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
+      "zip": {
+        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.1.54/cognix-os-0.1.54-win.zip",
+        "sha256": "cde087cd0fcb863c5f3a40af6657e6445a377c9cfe2b621aa0a6b49b1ed26742",
+        "size": 176692193
+      }
+    },
+    "plotter-code-studio": {
+      "name": "Plotter Code Studio",
+      "dir": "Creative Coding Studio",
+      "exe": "Creative Coding Studio.exe",
+      "version": "0.1.0",
+      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
+      "zip": {
+        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.1.0/plotter-code-studio-0.1.0-win.zip",
+        "sha256": "9413effcaf82d263acd30df643602a3d42f429f6960e9de7683ac00fde51f79d",
+        "size": 152431254
+      }
+    },
+    "plotter-3d-studio": {
+      "name": "Plotter Studio - 3D Printer",
+      "dir": "Plotter CX-NEA",
+      "exe": "Plotter CX-NEA.exe",
+      "version": "1.0.0",
+      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
+      "zip": {
+        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.0.0/plotter-3d-studio-1.0.0-win.zip",
+        "sha256": "94450cdc9a3d6d2b9656a80ed7929135d85e7164abf3c2e804e683c9af813411",
+        "size": 141470421
+      }
+    }
+  }
 }
