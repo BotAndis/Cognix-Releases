@@ -1,61 +1,61 @@
 {
-  "schema": 1,
-  "launcher": {
-    "version": "0.2.0",
-    "setup": {
-      "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.0/Cognix.Launcher.Setup.0.2.0.exe",
-      "sha256": "ac701fa9a71344d38a51bebe1604916c0888326343e3cd993cd42ac4a2a93428",
-      "size": 134059970
-    }
-  },
-  "programs": {
-    "ac-pdf-cleaner": {
-      "name": "AC-PDF-Cleaner",
-      "dir": "AC PDF Cleaner",
-      "exe": "ac-pdf-cleaner.exe",
-      "version": "2.20.0",
-      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
-      "zip": {
-        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.20.0/ac-pdf-cleaner-2.20.0-win.zip",
-        "sha256": "43052710a70456ec94bf8cbc1783b713d69986bec38a65cf2e089830911fe1a0",
-        "size": 284020481
-      }
-    },
-    "cognix-os": {
-      "name": "Cognix OS",
-      "dir": "Cognix OS",
-      "exe": "Cognix OS.exe",
-      "version": "0.1.54",
-      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
-      "zip": {
-        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.1.54/cognix-os-0.1.54-win.zip",
-        "sha256": "cde087cd0fcb863c5f3a40af6657e6445a377c9cfe2b621aa0a6b49b1ed26742",
-        "size": 176692193
-      }
-    },
-    "plotter-code-studio": {
-      "name": "Plotter Code Studio",
-      "dir": "Creative Coding Studio",
-      "exe": "Creative Coding Studio.exe",
-      "version": "0.2.0",
-      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
-      "zip": {
-        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.0/plotter-code-studio-0.2.0-win.zip",
-        "sha256": "76114dd15f5b5600e9036ca9716f0228fccd409a66b49bc84ae84eb66bcf9793",
-        "size": 158423981
-      }
-    },
-    "plotter-3d-studio": {
-      "name": "Plotter Studio - 3D Printer",
-      "dir": "Plotter CX-NEA",
-      "exe": "Plotter CX-NEA.exe",
-      "version": "1.1.0",
-      "page": "https://github.com/BotAndis/Cognix-Releases/releases",
-      "zip": {
-        "url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.1.0/plotter-3d-studio-1.1.0-win.zip",
-        "sha256": "dcf0090b343338d0966a590e339c989678274b54413aaa3b26676f2065f3c004",
-        "size": 143097570
-      }
-    }
-  }
+	"schema": 1,
+	"launcher": {
+		"version": "0.2.0",
+		"setup": {
+			"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.0/Cognix.Launcher.Setup.0.2.0.exe",
+			"sha256": "a42751f4f82e3ccda00de46bbf239b06c48d91dfae8076265829d3043d94a6b9",
+			"size": 134164037
+		}
+	},
+	"programs": {
+		"ac-pdf-cleaner": {
+			"name": "AC-PDF-Cleaner",
+			"dir": "AC PDF Cleaner",
+			"exe": "ac-pdf-cleaner.exe",
+			"version": "2.20.0",
+			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
+			"zip": {
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.20.0/ac-pdf-cleaner-2.20.0-win.zip",
+				"sha256": "43052710a70456ec94bf8cbc1783b713d69986bec38a65cf2e089830911fe1a0",
+				"size": 284020481
+			}
+		},
+		"cognix-os": {
+			"name": "Cognix OS",
+			"dir": "Cognix OS",
+			"exe": "Cognix OS.exe",
+			"version": "0.2.2",
+			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
+			"zip": {
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.2/cognix-os-0.2.2-win.zip",
+				"sha256": "89d603b1001455103934b88101a78a18d774e070ab31e861a128b0b3ed21ac54",
+				"size": 25761846
+			}
+		},
+		"plotter-code-studio": {
+			"name": "Plotter Code Studio",
+			"dir": "Creative Coding Studio",
+			"exe": "Creative Coding Studio.exe",
+			"version": "0.2.0",
+			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
+			"zip": {
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.0/plotter-code-studio-0.2.0-win.zip",
+				"sha256": "8c564fc866e9c242713cad5082a8b0f00ce965ef4d423431b9a8afddc2fb2d25",
+				"size": 1150293
+			}
+		},
+		"plotter-3d-studio": {
+			"name": "Plotter Studio - 3D Printer",
+			"dir": "Plotter CX-NEA",
+			"exe": "Plotter CX-NEA.exe",
+			"version": "1.1.0",
+			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
+			"zip": {
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.1.0/plotter-3d-studio-1.1.0-win.zip",
+				"sha256": "85cc6cb63b29313cc3bbe5fbeb8eda3cbe10a0de5258b9e7dfb81aae367460a1",
+				"size": 9436908
+			}
+		}
+	}
 }
