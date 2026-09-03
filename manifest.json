@@ -57,12 +57,20 @@
 			"name": "Plotter Studio - 3D Printer",
 			"dir": "Plotter CX-NEA",
 			"exe": "Plotter CX-NEA.exe",
-			"version": "1.1.0",
+			"version": "1.1.1",
 			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.1.0/plotter-3d-studio-1.1.0-win.zip",
-				"sha256": "85cc6cb63b29313cc3bbe5fbeb8eda3cbe10a0de5258b9e7dfb81aae367460a1",
-				"size": 9436908
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.1.1/plotter-3d-studio-1.1.1-win.zip",
+				"sha256": "cd610318f614c1a352d866ddee00eddc23139d4332f62b440c61888acfbb049c",
+				"size": 10087647
+			},
+			"mac": {
+				"bundle": "Plotter CX-NEA.app",
+				"zip": {
+					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-3d-studio-v1.1.1/plotter-3d-studio-1.1.1-mac.zip",
+					"sha256": "261b8c6d7dc9de5905008b0d61a0a5e405282c5e224187759a0df77f115ae5dd",
+					"size": 137722736
+				}
 			}
 		}
 	}
