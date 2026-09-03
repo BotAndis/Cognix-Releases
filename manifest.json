@@ -33,12 +33,20 @@
 			"name": "Cognix OS",
 			"dir": "Cognix OS",
 			"exe": "Cognix OS.exe",
-			"version": "0.2.2",
+			"version": "0.2.5",
 			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.2/cognix-os-0.2.2-win.zip",
-				"sha256": "89d603b1001455103934b88101a78a18d774e070ab31e861a128b0b3ed21ac54",
-				"size": 25761846
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.5/cognix-os-0.2.5-win.zip",
+				"sha256": "bbf209a405dbb84899a223279dd11eef7b8394c861d7c1601c86775b125285e2",
+				"size": 28361234
+			},
+			"mac": {
+				"bundle": "Cognix OS.app",
+				"zip": {
+					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.5/cognix-os-0.2.5-mac.zip",
+					"sha256": "312dd3950fa7b532facba732a336dbd8e96b9fce197425211c42348428877d6e",
+					"size": 157751461
+				}
 			}
 		},
 		"plotter-code-studio": {
