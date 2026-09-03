@@ -16,7 +16,7 @@
 //
 // Usage:
 //   node scripts/set-program-release.mjs \
-//     --id plotter-code-studio --version 0.2.2 \
+//     --id plotter-code-studio --version 0.2.2 \   (--id launcher writes the launcher entry)
 //     --win-url URL --win-sha SHA256 --win-size BYTES \
 //     --mac-bundle "Creative Coding Studio.app" --mac-url URL --mac-sha SHA256 --mac-size BYTES
 
@@ -66,15 +66,21 @@ for (const key of ['win-url', 'mac-url']) {
 const manifestFile = path.join(path.dirname(fileURLToPath(import.meta.url)), '..', 'manifest.json')
 const manifest = JSON.parse(fs.readFileSync(manifestFile, 'utf8'))
 
+// The launcher lives beside `programs`, not inside it, and its Windows payload is the NSIS
+// installer under `setup` rather than a `zip` — it is the one artefact the launcher cannot
+// swap for itself on Windows, so it is handed to the installer instead. On macOS there is no
+// NSIS, so the mac side is a zip of the .app like every program (updater.mjs, planUpdates).
+const isLauncher = options.id === 'launcher'
+
 // The id must already exist. A typo should fail the release, not silently invent a program
 // entry that no launcher has ever heard of and that nobody will notice until it is stale.
-const entry = manifest.programs?.[options.id]
+const entry = isLauncher ? manifest.launcher : manifest.programs?.[options.id]
 if (!entry) {
-	fail(`unknown program id "${options.id}" — known ids: ${Object.keys(manifest.programs ?? {}).join(', ')}`)
+	fail(`unknown program id "${options.id}" — known ids: launcher, ${Object.keys(manifest.programs ?? {}).join(', ')}`)
 }
 
 entry.version = options.version
-entry.zip = {
+entry[isLauncher ? 'setup' : 'zip'] = {
 	url: options['win-url'],
 	sha256: options['win-sha'].toLowerCase(),
 	size: Number(options['win-size']),
