@@ -33,19 +33,19 @@
 			"name": "Cognix OS",
 			"dir": "Cognix OS",
 			"exe": "Cognix OS.exe",
-			"version": "0.2.6",
+			"version": "0.2.7",
 			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.6/cognix-os-0.2.6-win.zip",
-				"sha256": "36e32ec2e2039338c8ebf9877d8d5a613fd175ab9b959b96bcb102bb286df46c",
-				"size": 28369395
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.7/cognix-os-0.2.7-win.zip",
+				"sha256": "5a826874fc26a239079296118f01f212f2a87bb494e86eca589715fc455d7854",
+				"size": 28382052
 			},
 			"mac": {
 				"bundle": "Cognix OS.app",
 				"zip": {
-					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.6/cognix-os-0.2.6-mac.zip",
-					"sha256": "18e4b64d5ca1f1b0bbbae6b5b61496b6e6fa343e717cd3198715a0def8282e0a",
-					"size": 157760014
+					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/cognix-os-v0.2.7/cognix-os-0.2.7-mac.zip",
+					"sha256": "cd3ce820fdebea3327160e840e3762b7dd2d231d70ed6d50d1a5f7e058870fc7",
+					"size": 157774326
 				}
 			}
 		},
