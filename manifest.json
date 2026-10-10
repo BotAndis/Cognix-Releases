@@ -21,19 +21,19 @@
 			"name": "AC-PDF-Cleaner",
 			"dir": "AC PDF Cleaner",
 			"exe": "ac-pdf-cleaner.exe",
-			"version": "2.22.0",
+			"version": "2.22.4",
 			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.22.0/ac-pdf-cleaner-2.22.0-win.zip",
-				"sha256": "7b58a8bc0977474b7c6695f4a33668c1028fa6f5e616094300da3b5012eb46d0",
-				"size": 286444217
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.22.4/ac-pdf-cleaner-2.22.4-win.zip",
+				"sha256": "a72d33fc6d2409f9372a644c186e564a4440479da24e9e3481cc066e8a8ef233",
+				"size": 286005948
 			},
 			"mac": {
 				"bundle": "AC PDF Cleaner.app",
 				"zip": {
-					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.22.0/ac-pdf-cleaner-2.22.0-mac.zip",
-					"sha256": "bf230d34c617dba7f1d5961bec4cbcd905d1b1641615d10396b5b193ebbd80c9",
-					"size": 253124924
+					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/ac-pdf-cleaner-v2.22.4/ac-pdf-cleaner-2.22.4-mac.zip",
+					"sha256": "1097624d008c3d56c8483342dbdcc7bdb4a90c82da48845ec83d2102b05fff04",
+					"size": 249372565
 				}
 			}
 		},
