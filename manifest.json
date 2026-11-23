@@ -1,18 +1,18 @@
 {
 	"schema": 1,
 	"launcher": {
-		"version": "0.2.9",
+		"version": "0.2.10",
 		"setup": {
-			"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.9/Cognix.Launcher.Setup.0.2.9.exe",
-			"sha256": "ac846743c67efae55153f94425252950254eb2d595df95d9b1101460080806e6",
-			"size": 137311468
+			"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.10/Cognix.Launcher.Setup.0.2.10.exe",
+			"sha256": "6e0273d15cb29cb4b5cd7152a26ee7c7e7e091d136470945c73757106e02dcbd",
+			"size": 138134763
 		},
 		"mac": {
 			"bundle": "Cognix Launcher.app",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.9/cognix-launcher-0.2.9-mac.zip",
-				"sha256": "aa0ec9b6641e7d973b67060e5ced67ccea13ae2a796a53fbd229847f97e0da17",
-				"size": 159072166
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/launcher-v0.2.10/cognix-launcher-0.2.10-mac.zip",
+				"sha256": "9c13b1d7e415b4de222aec19a074e734c13873247a3a2df11ecc532e84f4c4fe",
+				"size": 160152334
 			}
 		}
 	},
