@@ -61,19 +61,19 @@
 			"name": "Plotter Code Studio",
 			"dir": "Creative Coding Studio",
 			"exe": "Creative Coding Studio.exe",
-			"version": "0.2.3",
+			"version": "0.2.4",
 			"page": "https://github.com/BotAndis/Cognix-Releases/releases",
 			"zip": {
-				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.3/plotter-code-studio-0.2.3-win.zip",
-				"sha256": "0ffa6d0d602303a1660bb555ce5ea3cb94dc7259cd3a0e6f89445c75647ef51a",
-				"size": 967878
+				"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.4/plotter-code-studio-0.2.4-win.zip",
+				"sha256": "38a4a024d738c2bc590025edce9c79bf49bf11caf048b4840c7e77f656d3c5e3",
+				"size": 965878
 			},
 			"mac": {
 				"bundle": "Creative Coding Studio.app",
 				"zip": {
-					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.3/plotter-code-studio-0.2.3-mac.zip",
-					"sha256": "d0e61f060cca4e0a4e21c8354f6bd762e8bc79d07b426e6585aa9b44b4bb7054",
-					"size": 128614563
+					"url": "https://github.com/BotAndis/Cognix-Releases/releases/download/plotter-code-studio-v0.2.4/plotter-code-studio-0.2.4-mac.zip",
+					"sha256": "2ad0de7c003be7bfd6fc403401517f76ca20d279be8210bdbef4d1f9396e4de0",
+					"size": 128612588
 				}
 			}
 		},
